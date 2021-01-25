@@ -6443,6 +6443,14 @@ button.bg-dark:focus {
   left: 0;
   z-index: 1030; }
 
+.fixed {
+   position: fixed;
+   top: 0;
+   bottom: 45px; /* added */
+   min-height: 0 !important; /* added */
+}
+
+
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky;
