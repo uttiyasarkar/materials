@@ -6429,12 +6429,19 @@ button.bg-dark:focus {
   position: -webkit-sticky !important;
   position: sticky !important; }
 
-.fixed {
-   position: fixed;
-   top: 0;
-   bottom: 45px; /* added */
-   min-height: 0 !important; /* added */
-}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030; }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
