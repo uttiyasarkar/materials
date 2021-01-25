@@ -8202,8 +8202,8 @@ h1, h2, h3, h4, h5,
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  min-height: 50%;
-  max-height: 95%;
+  min-height: 600px;
+  max-height: 600px;
   background: #212121;
   color: #fff;
   -webkit-transition: all 0.3s;
